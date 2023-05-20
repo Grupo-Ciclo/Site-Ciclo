@@ -59,7 +59,27 @@ include("blades/header.php");
 <div class="container">
   <div class="row">
     <div class="col-md-6">
-      <img src="imgs/lixo.jpeg" alt="Imagem" class="img-fluid mt-5 mb-5">
+      <img src="imgs/render_lixeira/Trash_Front.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
+    </div>
+    <div class="col-md-6 mt-5">
+      <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
+      <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu enim eget quam malesuada vestibulum. Praesent nec nisl euismod, lobortis turpis non, varius tellus. Ut nec leo ut mi pharetra lobortis. Nam at fermentum ipsum.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 mt-5">
+      <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
+      <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu enim eget quam malesuada vestibulum. Praesent nec nisl euismod, lobortis turpis non, varius tellus. Ut nec leo ut mi pharetra lobortis. Nam at fermentum ipsum.</p>
+    </div>
+    <div class="col-md-6">
+      <img src="imgs/render_lixeira/Trash_parallel.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="imgs/render_lixeira/Trash_Tampa.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
     </div>
     <div class="col-md-6 mt-5">
       <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
