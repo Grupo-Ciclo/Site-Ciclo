@@ -15,29 +15,26 @@ include("blades/header.php");
     <div class="carousel-item active c-item">
 
       <img src="imgs/carrossel/slide1.png" class="d-block w-100 c-img" alt="slide1">
-      <div class="carousel-caption top-0 mt-4 ">
-        <p class="mt-5 fs-3 text-uppercase">texto incrivel!</p>
-        <h1 class="display-1 fw-bolder text-capitalized">Texto incrivel!</h1>
-        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Sim!</button>
+      <div class="carousel-caption top-3 mt-5 ">
+        <h1 class="display-1 fw-bolder text-capitalized">Ciclo</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-2">Conheça o Grupo</button>
       </div>
 
     </div>
 
     <div class="carousel-item c-item">
       <img src="imgs/carrossel/slide2.png" class="d-block w-100 c-img" alt="slide2">
-      <div class="carousel-caption top-0 mt-4 ">
-        <p class="mt-5 fs-3 text-uppercase">texto incrivel!</p>
-        <h1 class="display-1 fw-bolder text-capitalized">Texto incrivel!</h1>
-        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Sim!</button>
+      <div class="carousel-caption top-4 mt-3 ">
+        <h1 class="display-1 fw-bolder text-capitalized">Treashure</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-2">Conheça a proposta</button>
       </div>
     </div>
 
     <div class="carousel-item c-item">
       <img src="imgs/carrossel/slide3.png" class="d-block w-100 c-img" alt="slide3">
-      <div class="carousel-caption top-0 mt-4 ">
-        <p class="mt-5 fs-3 text-uppercase">texto incrivel!</p>
-        <h1 class="display-1 fw-bolder text-capitalized">Texto incrivel!</h1>
-        <button class="btn btn-primary px-4 py-2 fs-5 mt-5">Sim!</button>
+      <div class="carousel-caption top-4 mt-3 ">
+        <h1 class="display-1 fw-bolder text-capitalized">Novidades</h1>
+        <button class="btn btn-primary px-4 py-2 fs-5 mt-2">Veja noticias</button>
       </div>
     </div>
 
@@ -57,33 +54,33 @@ include("blades/header.php");
 <!--CARROSSEL-->
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="imgs/render_lixeira/Trash_Front.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <img src="imgs/corpo/Parallel.png" alt="Imagem"  height="200px"  class=" mt-5 mb-5" style="">
     </div>
     <div class="col-md-6 mt-5">
-      <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
-      <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu enim eget quam malesuada vestibulum. Praesent nec nisl euismod, lobortis turpis non, varius tellus. Ut nec leo ut mi pharetra lobortis. Nam at fermentum ipsum.</p>
+      <h2 class=" display-5 fw-bolder text-uppercase">Lixeira</h2>
+      <p class="mt-3 fs-5">Uma lixeira "Smart" para reciclagem de plástico.</p>
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6 mt-5">
-      <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
-      <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu enim eget quam malesuada vestibulum. Praesent nec nisl euismod, lobortis turpis non, varius tellus. Ut nec leo ut mi pharetra lobortis. Nam at fermentum ipsum.</p>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <h2 class=" display-5 fw-bolder text-uppercase">Pontos</h2>
+      <p class="mt-3 fs-5">Receba pontos com base no peso do plastico que foi depositado. Use os pontos para resgatar recompensas!</p>
     </div>
     <div class="col-md-6">
-      <img src="imgs/render_lixeira/Trash_parallel.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
+      <img src="imgs/corpo/Points_Parallel0060.png" alt="Imagem"  height="200px"  class="mt-5 mb-5">
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <img src="imgs/render_lixeira/Trash_Tampa.png" alt="Imagem"  height="200px"  class="img-fluid mt-5 mb-5">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <img src="imgs/corpo/celular_tmp.png" alt="Imagem"  height="200px"  class="mt-5 mb-5">
     </div>
-    <div class="col-md-6 mt-5">
-      <h2 class=" display-5 fw-bolder text-uppercase">Título do Conteúdo</h2>
-      <p class="mt-3 fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu enim eget quam malesuada vestibulum. Praesent nec nisl euismod, lobortis turpis non, varius tellus. Ut nec leo ut mi pharetra lobortis. Nam at fermentum ipsum.</p>
+    <div class="col-4">
+      <h2 class=" display-5 fw-bolder text-uppercase">Baixe o APP</h2>
+      <p class="mt-3 fs-5">Utilize o aplicativo de celular para se comunicar com a lixeira.</p>
     </div>
   </div>
 </div>
