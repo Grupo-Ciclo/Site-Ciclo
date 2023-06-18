@@ -53,21 +53,23 @@ include("blades/header.php");
 </div>
 <!--CARROSSEL-->
 
-<div class="container">
+
+<div class="bg">
+  <div class="container">
   <div class="row justify-content-center">
     <div class="col-4">
       <img src="imgs/corpo/Parallel.png" alt="Imagem"  height="200px"  class=" mt-5 mb-5" style="">
     </div>
     <div class="col-md-6 mt-5">
-      <h2 class=" display-5 fw-bolder text-uppercase">Lixeira</h2>
-      <p class="mt-3 fs-5">Uma lixeira "Smart" para reciclagem de plástico.</p>
+      <h2 class=" display-5 fw-bolder text-white text-uppercase">Lixeira</h2>
+      <p class="mt-3 text-white fs-5">Uma lixeira "Smart" para reciclagem de plástico.</p>
     </div>
   </div>
 
   <div class="row justify-content-center">
     <div class="col-6">
-      <h2 class=" display-5 fw-bolder text-uppercase">Pontos</h2>
-      <p class="mt-3 fs-5">Receba pontos com base no peso do plastico que foi depositado. Use os pontos para resgatar recompensas!</p>
+      <h2 class=" display-5 fw-bolder text-white text-uppercase">Pontos</h2>
+      <p class="mt-3 text-white fs-5">Receba pontos com base no peso do plastico que foi depositado. Use os pontos para resgatar recompensas!</p>
     </div>
     <div class="col-md-6">
       <img src="imgs/corpo/Points_Parallel0060.png" alt="Imagem"  height="200px"  class="mt-5 mb-5">
@@ -79,12 +81,23 @@ include("blades/header.php");
       <img src="imgs/corpo/celular_tmp.png" alt="Imagem"  height="200px"  class="mt-5 mb-5">
     </div>
     <div class="col-4">
-      <h2 class=" display-5 fw-bolder text-uppercase">Baixe o APP</h2>
-      <p class="mt-3 fs-5">Utilize o aplicativo de celular para se comunicar com a lixeira.</p>
+      <h2 class=" display-5 fw-bolder text-white text-uppercase">Baixe o APP</h2>
+      <p class="mt-3 text-white fs-5">Utilize o aplicativo de celular para se comunicar com a lixeira.</p>
     </div>
+  </div>
   </div>
 </div>
 
+<div class="bgg2">
+  <div class="container">
+    <h2 class="text-center destaque-txt mb-4 display-3 text-white">Como funciona</h2>
+    <h4 class="text-white mb-4">
+        O projeto consiste em uma "lixeira smart", na qual iria ter a capacidade de pesar o plastico antes de ser depositado e converter esse peso em pontos que poderão ser usados no aplicativo para trocar por dinheiro. <br>
+        A parte de cima da lixeira conta com a tampa onde será realizada a pesagem, uma tela onde será possivel obter o código QR que ao ser escaneado dirá o peso do plastico que vai ser depositado e a quantidade de pontos que o usuario irá receber e ao lado da tela um botão que ao ser apertado abaixara a tampa da lixeria permitindo que o plastico seja guardado para então futuramente ser reciclado.<br><br>
+        Já no App você poderá abrir a camera para escanear o código QR que estará disponivel na lixeira e resgatar seus pontos, depois poderá entrar em uma tela que mostra a quantidade de pontos possuidos e as lixeiras próximas, tendo acesso a um mapa que mostrara com mais detalhes todas as lixeiras disponiveis na cidade. Também será possivel analisar de mais de perto todos os pontos recebidos, olhando data, hora e quantidade de plastico depositado no dia. Na tela de trocas será possivel ver todos os itens disponiveis a serem resgatados com base nos pontos possuidos.
+      </h4>
+  </div>
+</div>
 
 
 
