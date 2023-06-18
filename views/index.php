@@ -91,7 +91,7 @@ include("blades/header.php");
 <div class="bgg2">
   <div class="container">
     <h2 class="text-center destaque-txt mb-4 display-3 text-white">Como funciona</h2>
-    <h4 class="text-white mb-4">
+    <h4 class="text-white mt-4 mb-6">
         O projeto consiste em uma "lixeira smart", na qual iria ter a capacidade de pesar o plastico antes de ser depositado e converter esse peso em pontos que poderão ser usados no aplicativo para trocar por dinheiro. <br>
         A parte de cima da lixeira conta com a tampa onde será realizada a pesagem, uma tela onde será possivel obter o código QR que ao ser escaneado dirá o peso do plastico que vai ser depositado e a quantidade de pontos que o usuario irá receber e ao lado da tela um botão que ao ser apertado abaixara a tampa da lixeria permitindo que o plastico seja guardado para então futuramente ser reciclado.<br><br>
         Já no App você poderá abrir a camera para escanear o código QR que estará disponivel na lixeira e resgatar seus pontos, depois poderá entrar em uma tela que mostra a quantidade de pontos possuidos e as lixeiras próximas, tendo acesso a um mapa que mostrara com mais detalhes todas as lixeiras disponiveis na cidade. Também será possivel analisar de mais de perto todos os pontos recebidos, olhando data, hora e quantidade de plastico depositado no dia. Na tela de trocas será possivel ver todos os itens disponiveis a serem resgatados com base nos pontos possuidos.
@@ -99,6 +99,14 @@ include("blades/header.php");
   </div>
 </div>
 
+<div class="bg">
+  <div class="container">
+    <h2 class="text-center destaque-txt mb-4 display-3 text-white">[Sobre plastico]</h2>
+    <h4 class="text-white mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illo cupiditate amet? Unde dolore, maxime in quisquam, magni, neque sequi quam doloremque praesentium iusto repellat officia. Obcaecati, consequuntur earum distinctio dolore quo reprehenderit rem est repellendus possimus reiciendis illo expedita voluptatem quas labore. Impedit rem odio dolorum ducimus corporis molestiae porro dignissimos temporibus quod consectetur. Culpa alias dolores a ea, consequuntur fuga quam libero pariatur vel harum quaerat. Odit saepe nemo veniam minus esse maiores nisi repudiandae laboriosam ipsam harum doloremque, animi hic impedit. Labore, in vero. Iure illo doloremque, autem et ipsa nemo sed odit perspiciatis aliquam optio hic!
+      </h4>
+  </div>
+</div>
 
 
 
