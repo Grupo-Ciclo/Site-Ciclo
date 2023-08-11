@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .landing-page {
+    position: relative;
+    height: 100vh;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  .navbar {
+    background-color: green; 
+    padding: 10px;
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 20px;
+  }
+  
+  .navbar-item:last-child {
+    margin-right: 0; 
+  }
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+  }
+
+
+  /* Defina uma paleta de cores verde */
+:root {
+  --green-main: #1abc9c; /* Cor verde principal */
+  --green-dark: #16a085; /* Cor verde mais escura */
+}
+
+/* Estilize o conteúdo das seções */
+.content-section {
+  background-color: var(--green-main);
+  color: white;
+  padding: 30px;
+}
+
+.content-text {
+  text-align: left;
+}
+
+.content-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content-text p {
+  font-size: 16px;
+}
+
+/* Estilize as imagens circulares com borda verde */
+.img-fluid {
+  max-width: 150px; /* Ajuste o tamanho da imagem aqui (exemplo: 150px) */
+  border: 5px solid var(--green-dark);
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
