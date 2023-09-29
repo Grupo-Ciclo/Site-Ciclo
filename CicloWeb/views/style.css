@@ -3,11 +3,16 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  
+
+  #fundo{
+    background-image: url(../views/imgs/corpo/Fundo-Templatefundo.png);
+    height: 80vh;
+  }
+
   .landing-page {
     position: relative;
-    height: 100vh;
-    background-image: url('');
+    min-height: 100vh;
+    background-color: #64e484;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -21,7 +26,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
   }
   
   .content {
@@ -75,14 +79,15 @@ body {
     font-weight: bold;
   }
 
-
-  /* Defina uma paleta de cores verde */
+.temp {
+  background-color: #64e484;
+}
 :root {
-  --green-main: #1abc9c; /* Cor verde principal */
-  --green-dark: #16a085; /* Cor verde mais escura */
+  --green-main: green; 
+  --green-dark: #16a085; 
 }
 
-/* Estilize o conteúdo das seções */
+
 .content-section {
   background-color: var(--green-main);
   color: white;
@@ -102,10 +107,82 @@ body {
   font-size: 16px;
 }
 
-/* Estilize as imagens circulares com borda verde */
-.img-fluid {
-  max-width: 150px; /* Ajuste o tamanho da imagem aqui (exemplo: 150px) */
-  border: 5px solid var(--green-dark);
-  border-radius: 50%;
-  margin-bottom: 15px;
+.section-divider {
+  border-bottom: 1px solid #ccc; 
+  margin: 40px 0; 
+  margin-top: 90px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree&display=swap");
+
+.contai {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1em;
+  width: 800px;
+  height: 500px;
+  font-family: "Figtree", sans-serif;
+  transition: all 400ms;
+  margin-left: 300px;
+}
+
+.box {
+  position: relative;
+  background: var(--img) center center;
+  background-size: cover;
+  transition: all 400ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box::after{
+  content: attr(data-text);
+  position: absolute;
+  bottom: 20px;
+  background: #000;
+  color: #fff;
+  padding: 10px 10px 10px 14px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  transform: translateY(60px);
+  opacity: 0;
+  transition: all 400ms;
+}
+
+.contai:hover .box{
+  filter: grayscale(100%) opacity(24%);
+}
+
+.box:hover::after{
+  transform: translateY(0);
+  opacity: 1;
+  transition-delay: 400ms;
+}
+
+.contai .box:hover{
+  filter: grayscale(0%) opacity(100%);
+}
+
+.contai:has(.box-1:hover){
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+.contai:has(.box-2:hover){
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+.contai:has(.box-3:hover){
+  grid-template-columns: 1fr 1fr 3fr 1fr;
+}
+.contai:has(.box-4:hover){
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+}
+
+.box:nth-child(odd) {
+  transform: translateY(-16px);
+}
+
+.box:nth-child(even){
+  transform: translateY(16px);
 }
