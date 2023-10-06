@@ -4,11 +4,6 @@ body {
     font-family: Arial, sans-serif;
   }
 
-  #fundo{
-    background-image: url(../views/imgs/corpo/Fundo-Templatefundo.png);
-    height: 80vh;
-  }
-
   .landing-page {
     position: relative;
     min-height: 100vh;
@@ -185,4 +180,9 @@ body {
 
 .box:nth-child(even){
   transform: translateY(16px);
+}
+
+#fundo{
+  background-image: url(../views/imgs/corpo/Fundo-Templatefundo.png);
+  height: 85vh;
 }

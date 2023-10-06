@@ -26,24 +26,26 @@ include("blades/header.php");
     </div>
   </nav>
 
- 
+  
 
-                <div class="container-fluid p-5"  id="fundo">
-                    <div class="row p-5">
-                        <div class="col-md-6">
-                            <h2 class="mt-5  display-5 fw-bolder text-uppercase">Grupo ciclo</h2>
-                            <p>descricao</p>
-                            <button class="button">Veja</button>
-                        </div>
-                        <div class="col-md-6 text-center">
+                <div class="container-fluid pt-5" id="fundo">
+                    <div class="row pt-5">
+                    <div class="col-md-1"></div>
+                        <div class="col-md-5 text-center pt-3">
                             <img src="imgs/corpo/Logo_CicloBr.png" height="400px" alt="Imagem">
+                        </div>
+                       
+                        <div class="col-md-6 text-white">
+                            <h2 class="mt-5 display-5 fw-bolder text-uppercase">Grupo ciclo</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nemo accusantium at rem voluptatibus molestias, maxime nostrum facilis ab. Eligendi dolores asperiores modi, ratione laboriosam nam quo quam sint sit?</p>
+                            <button class="button">Veja</button>
                         </div>
                     </div>
                 </div>
            
 
-            <div class="section-divider"></div>
-
+ 
+  <div class="container bg-white rounded mt-5 p-5">
   <div class="container mt-5">
     <div class="row mt-5">
       <!-- Primeira seção -->
@@ -104,6 +106,7 @@ include("blades/header.php");
   </div>
 
   <div id="nos" class="section-divider"></div>
+  </div>
 
   <h2 class="display-2 text-center">Conheça o Grupo</h2>
 
