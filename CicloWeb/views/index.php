@@ -1,5 +1,6 @@
 <?php 
 include("blades/header.php");
+include("../controllers/frase.php");
 ?>
 <nav class="navbar navbar-expand-lg navbar-dark --green-main sticky-top">
     <div class="container">
@@ -10,10 +11,10 @@ include("blades/header.php");
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#init">Inicio</a>
+            <a class="nav-link" href="#fundo">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sobre">Sobre</a>
+            <a class="nav-link" href="#sobre">Como Funciona?</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Noticias</a>
@@ -36,9 +37,9 @@ include("blades/header.php");
                         </div>
                        
                         <div class="col-md-6 text-white">
-                            <h2 class="mt-5 display-5 fw-bolder text-uppercase">Grupo ciclo</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nemo accusantium at rem voluptatibus molestias, maxime nostrum facilis ab. Eligendi dolores asperiores modi, ratione laboriosam nam quo quam sint sit?</p>
-                            <button class="button">Veja</button>
+                            <h2 id="frase" class="mt-5 display-4 fw-bolder text-uppercase">Grupo ciclo</h2>
+                            <p id="frase" class="display-6"><?php echo $frases[$num] ?></p>
+                            <button class="button shadow">Veja</button>
                         </div>
                     </div>
                 </div>
@@ -55,7 +56,7 @@ include("blades/header.php");
       <div class="col-md-6 d-flex align-items-center">
         <div>
           <h2 class="display-5 fw-bolder text-uppercase">LIXEIRA</h2>
-          <p>Uma lixeira "Smart" para reciclagem de plastico.</p>
+          <p>Uma lixeira capaz de pesar plástico que visa o incentivo a reciclagem</p>
         </div>
       </div>
     </div>
@@ -92,11 +93,11 @@ include("blades/header.php");
   <div id="sobre" class="section-divider"></div>
     <!-- Conteúdo da página -->
     <div class="container mt-5">
-    <h2  class="text-center">Como funciona</h2>
+    <h2  class="text-center display-6 fw-bolder text-uppercase">Como funciona?</h2>
     <div class="row">
       <div class="col-md-6">
-        <p>O projeto consiste em uma "lixeira smart", na qual iria ter a capacidade de pesar o plastico antes de ser depositado e converter esse peso em pontos que poderão ser usados no aplicativo para trocar por dinheiro.</p>
-        <p>A parte de cima da lixeira conta com a tampa onde será realizada a pesagem, uma tela onde será possivel obter o código QR que ao ser escaneado dirá o peso do plastico que vai ser depositado e a quantidade de pontos que o usuario irá receber e ao lado da tela um botão que ao ser apertado abaixara a tampa da lixeria permitindo que o plastico seja guardado para então futuramente ser reciclado.</p>
+        <p>O projeto consiste em uma "lixeira smart", com a capacidade de pesar o plastico antes de ser depositado e converter esse peso em pontos que poderão ser usados no aplicativo para trocar por dinheiro.</p>
+        <p>A parte interior lixeira conta com uma balança onde será realizada a pesagem, uma tela onde será possivel obter o código QR que ao ser escaneado, o usuario será reconhecido para que possa receber seus pontos.</p>
       </div>
       <div class="col-md-6">
         <p>No App você poderá abrir a camera para escanear o código QR que estará disponivel na lixeira e resgatar seus pontos, depois poderá entrar em uma tela que mostra a quantidade de pontos possuidos e as lixeiras próximas, tendo acesso a um mapa que mostrara com mais detalhes todas as lixeiras disponiveis na cidade.</p>

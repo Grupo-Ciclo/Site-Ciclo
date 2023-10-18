@@ -47,6 +47,7 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.2rem;
+    border: 0px;
   }
   .navbar {
     background-color: green; 
@@ -184,5 +185,22 @@ body {
 
 #fundo{
   background-image: url(../views/imgs/corpo/Fundo-Templatefundo.png);
-  height: 85vh;
+  height: auto;
+  padding-bottom: 15px;
 }
+
+#frase{
+  text-shadow: 2px 2px #525252;
+  animation: animation1 0.5s;
+}
+
+@keyframes animation1{
+  from{
+    margin-top: 10%;
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
